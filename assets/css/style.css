@@ -1,0 +1,98 @@
+html {
+    position: relative;
+    min-height: 100%;
+    max-width: 100%;
+}
+
+body {
+    min-height: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 18px; 
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    margin-bottom: 60px;
+    line-height: 1.5;
+}
+
+.navbar {
+    background-color: black !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+ }
+ 
+.nav-item {
+    font-size: 18px;
+    color: white !important;
+    padding-bottom: 0px;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: white !important;
+    background-color: white !important;
+}
+
+#logo {
+    width: 220px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.story {
+    width: 80%;
+    display: inline-block;
+}
+
+.social {
+    width: 55px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.row { 
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+.col-md-6 {
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%; 
+    height: 60px;
+    line-height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 320px) {
+#logo {
+    width: 150px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+body { 
+    padding-top: 50px; 
+}
+}
