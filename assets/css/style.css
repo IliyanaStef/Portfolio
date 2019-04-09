@@ -62,6 +62,15 @@ h1 {
     margin-left: 0px;
 }
 
+.titles {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.picture {
+    border-radius: 1em;	
+}
+
 p {
     margin-bottom: 0px;
 }
