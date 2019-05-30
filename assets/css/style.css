@@ -64,7 +64,8 @@ h1 {
 
 .titles {
     font-weight: bold;
-    margin-top: 5px;
+    margin-top: 10px;
+    text-transform: uppercase;
 }
 
 .picture {
